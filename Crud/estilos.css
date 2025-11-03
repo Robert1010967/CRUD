@@ -1,0 +1,93 @@
+/* === ESTRUCTURA GENERAL === */
+body {
+  font-family: Arial, sans-serif;
+  background-color: lightblue;
+  color: #333;
+  margin: 0 auto;
+  max-width: 750px;
+  padding: 20px;
+}
+
+/* === LOGO === */
+.logo-container {
+  text-align: center;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+}
+
+/* === ENCABEZADO === */
+h1 {
+  text-align: center;
+  color: red;
+}
+
+/* === FORMULARIO === */
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+fieldset {
+  border: none;
+}
+
+legend {
+  font-weight: bold;
+  margin-top: 10px;
+  color: #555;
+}
+
+.form-control {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 40px;
+}
+
+/* === BOTONES === */
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.btn {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #218838;
+}
+
+/* === TABLA DE PRODUCTOS === */
+.tabla-productos {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  margin-top: 20px;
+}
+
+.tabla-productos th,
+.tabla-productos td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.tabla-productos tr:hover {
+  background-color: #f1f1f1;
+}
